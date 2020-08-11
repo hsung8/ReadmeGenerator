@@ -71,37 +71,41 @@ function promptUser() {
 // function to write README file
 function writeToFile(answers) {
     return `
-    # ${answers.title}
-    ${answers.description}
+# ${answers.title}
+${answers.description}
 
-    #### Table of Contents
-    * Title
-    * Description
-    * Installation
-    * Usage
-    * License
-    * Contributing
-    * Tests
+#### Table of Contents
+* Title
+* Description
+* Installation
+* Usage
+* License
+* Contributing
+* Tests
     
-    #### Installation
-    ${answers.installation}
+#### Installation
+${answers.installation}
 
-    #### Usage
-    ${answers.usage}
+#### Usage
+${answers.usage}
 
-    #### License
-    ${answers.license}
+#### License
+${answers.license}
 
-    #### Contributing
-    ${answers.contributing}
+#### Contributing
+${answers.contributing}
 
-    #### Tests
-    ${answers.tests}
-    `
+#### Tests
+${answers.tests}
+
+###### Contact
+Github: ${answers.github}
+E-mail: ${answers.email}
+`
 }
 
 // function to initialize program
-function init() {
+async function init() {
     console.log("hi")
     try {
         const answers = await promptUser();
