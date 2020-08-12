@@ -98,9 +98,9 @@ ${answers.contributing}
 #### Tests
 ${answers.tests}
 
-###### Contact
-Github: ${answers.github}
-E-mail: ${answers.email}
+#### Contact
+* Github: ${answers.github}
+* E-mail: ${answers.email}
 `
 }
 
