@@ -8,4 +8,4 @@ Type your answer to the questions appear in your command-line application.
 
 ## Demo
 ![Readme Generator Demo](demo/demo.gif)
-* Video link: https://drive.google.com/file/d/10SLDUw-pr4S6Z4Oa5ZJI92r2PKtpra3A/view
+* Video link:![Click here](https://drive.google.com/file/d/10SLDUw-pr4S6Z4Oa5ZJI92r2PKtpra3A/view)
