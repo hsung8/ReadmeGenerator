@@ -77,28 +77,28 @@ ${answers.description}
 #### Table of Contents
 * Title
 * Description
-* Installation
-* Usage
-* License
-* Contributing
-* Tests
+[* Installation](####installation)
+[* Usage](####usage)
+[* License](####license)
+[* Contributing](####contributing)
+[* Tests](####tests)
     
-#### Installation
+####Installation
 ${answers.installation}
 
-#### Usage
+####Usage
 ${answers.usage}
 
-#### License
+####License
 ${answers.license}
 
-#### Contributing
+####Contributing
 ${answers.contributing}
 
-#### Tests
+####Tests
 ${answers.tests}
 
-#### Contact
+####Contact
 * Github: ${answers.github}
 * E-mail: ${answers.email}
 `
